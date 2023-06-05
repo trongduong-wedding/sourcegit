@@ -9,6 +9,7 @@ import { TestBonComponent } from './test-bon/test-bon.component';
 import { TestMotComponent } from './test-mot/test-mot.component';
 import { TestHaiComponent } from './test-hai/test-hai.component';
 import { TestBaComponent } from './test-ba/test-ba.component';
+import { TestNamComponent } from './test-nam/test-nam.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TestBaComponent } from './test-ba/test-ba.component';
     TestBonComponent,
     TestMotComponent,
     TestHaiComponent,
-    TestBaComponent
+    TestBaComponent,
+    TestNamComponent
   ],
   imports: [
     BrowserModule,
