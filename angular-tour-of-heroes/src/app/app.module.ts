@@ -7,6 +7,7 @@ import { ProductsComponent } from './products/products.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { TestMotComponent } from './test-mot/test-mot.component';
 import { TestHaiComponent } from './test-hai/test-hai.component';
+import { TestBaComponent } from './test-ba/test-ba.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TestHaiComponent } from './test-hai/test-hai.component';
     ProductsComponent,
     ProductDetailComponent,
     TestMotComponent,
-    TestHaiComponent
+    TestHaiComponent,
+    TestBaComponent
   ],
   imports: [
     BrowserModule,
